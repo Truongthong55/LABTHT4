@@ -53,14 +53,14 @@ public class Main {
         System.out.println("Các giao dịch đất của ngày 22 tháng 5 năm 2023: ");
         for (int i = 0; i < arrGiaoDichDat.size(); i++) {
             String[] dateGiaoDichDat = arrGiaoDichDat.get(i).getNgayGiaoDich().split("/");
-            if (dateGiaoDichDat[1].equals("5") && dateGiaoDichDat[2].equals("2023")) {
+            if (dateGiaoDichDat[1].equals("22") && dateGiaoDichDat[1].equals("5") && dateGiaoDichDat[2].equals("2023")) {
                 System.out.println(arrGiaoDichDat.get(i).toString());
             }
         }
         System.out.println("Các giao dịch nhà của ngày 22 tháng 5 năm 2023: ");
         for (int i = 0; i < arrGiaoDichNha.size(); i++) {
             String[] dateGiaoDichNha = arrGiaoDichNha.get(i).getNgayGiaoDich().split("/");
-            if (dateGiaoDichNha[1].equals("5") && dateGiaoDichNha[2].equals("2023")) {
+            if (dateGiaoDichDat[1].equals("22") && dateGiaoDichNha[1].equals("5") && dateGiaoDichNha[2].equals("2023")) {
                 System.out.println(arrGiaoDichNha.get(i).toString());
             }
     }   
